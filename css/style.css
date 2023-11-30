@@ -1,0 +1,218 @@
+@charset "UTF-8;";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+   
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( 90deg, #4E7577, #65D5FC, #23445B);
+    background-repeat: no-repeat;
+}
+.main{
+    width: 1440px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    
+    
+    
+}
+
+.main > .esquerda{
+    background-color: white;
+   background-image: url(../assets/Stroke\ 5.svg);
+   background-repeat: no-repeat;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+   
+  
+   
+   
+}
+
+.main > .esquerda > .header{
+    margin-left: 64px;
+    margin-top: 40px;
+}
+
+.main > .esquerda > .cards > p{
+    margin-top: 100px;;
+    margin-left: -155px;
+   margin-bottom: 64px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.main > .esquerda > .cards{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+   
+    
+    
+  
+}
+
+.main > .esquerda > .cards input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 24px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC;
+   
+    
+}
+
+.main > .esquerda > .cards label{
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.main > .esquerda > .cards > .textfield{
+    display: flex;
+    flex-direction: column;
+}
+.main > .esquerda > .cards > .password{
+    display: flex;
+    flex-direction: column;
+}
+
+.main > .esquerda > .cards > .password > p{
+    margin-top: -20px;
+    font-size: 12px;
+    opacity: 50%;
+    margin-bottom: 24px;
+}
+
+ span#location-weak{
+    opacity: 50%;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.footer-esquerda{
+   
+   
+}
+
+ .footer-esquerda > input{
+    width: 400px;
+    height: 40px;
+    margin-top: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    background-color: #27485D;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.footer-esquerda > p{
+    text-align: center;
+   opacity: 80%;
+    margin-right: 8px;
+   
+   
+  
+
+}
+
+.main > .esquerda > .cards > .footer-esquerda > p > a{
+    text-decoration: none;
+    color: #476D73;
+    font-weight: bold;
+   
+   
+    
+}
+
+.main > .esquerda > .cards > .footer-esquerda > p > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.direita{
+    width: 640px;
+    background-image: linear-gradient( 550deg, #4E7577, #496F74,  #284A5E );
+    display: flex;
+    flex-direction: column;
+}
+
+.direita > .header{
+    width: 89%;
+    text-align: right;
+   margin-right: 500px;
+    margin-top: 40px;
+    
+   
+}
+
+.direita > .header > a{
+    
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.direita > .container {
+    margin: auto;
+    color: white;
+   
+}
+
+.direita > .container > h1{
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: -80px;
+    margin-bottom: 18px;
+    
+}
+
+.direita > .container > p{
+    margin-left: -80px;
+}
+
+.main > .direita > .header > a:hover{
+    text-decoration: underline;
+    color: #bee1ec;
+    
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreativ || Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/Kreativ-logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+                
+        <div class="esquerda">
+            <div class="header">
+                <img src="assets/Kreativ-logo.svg" alt="">
+            </div>
+           <div class="cards">
+            <p>Let's get you started</p>
+
+            <div class="textfield">
+                <label for="iname">Full name</label>
+                <input type="text" name="name" id="iname" placeholder="Ade Tiger" required>
+                <label for="imail">Email adress</label>
+                <input type="email" name="email" id="imail" placeholder="yourname@gmail.com" required>
+                <label for="inumber">Phone Number</label>
+                <input type="number" name="number" id="inumber" placeholder="(xx) xxxxx-xxxx" required>
+            </div>
+
+            <div class="password">
+                <label for="isenha">Create password</label>
+                <input type="password" name="senha" id="isenha" minlength="8" required>
+                <p>Password must contain a minimum of 8 characters <br>
+                Password must contain at least one symbol e.g. @, !</p>
+            </div>
+            <div class="textfield">
+                <label for="ilocation">Location <span id="location-weak">(Opcional)</span></label>
+                <input type="text" name="location" id="ilocation">
+            </div>
+            
+            <div class="footer-esquerda">
+                <input type="submit" value="Sign Up">
+                <p>Already a user? <a href="#" class="extençoes">Login</a> </p>  
+            </div>
+            
+           </div>
+        </div>
+
+        <div class="direita">
+            <div class="header">
+                <a href="#" class="extençoes">Home</a>
+                <a href="#" class="extençoes">Contact</a>
+            </div>
+            <div class="container">
+                <h1>"Creativity is <br>
+                intelligence <br>
+                having fun"</h1>
+                <p>- Albert Eistein</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
